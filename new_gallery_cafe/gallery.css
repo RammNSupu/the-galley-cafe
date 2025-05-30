@@ -1,0 +1,62 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1e5;
+    color: white;
+}
+
+.gallery-section h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+}
+
+.gallery-section p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+}
+
+/* Tab Links */
+.tab-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tab-link {
+    color: black;
+    background-color: yellow;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.tab-link:hover {
+    background-color: darkorange;
+}
+
+/* Gallery Layout */
+.gallery-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-images {
+    display: none;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+

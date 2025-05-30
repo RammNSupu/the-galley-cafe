@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    margin: 0;
+}
+
+
+
+.signup-container, .login-container {
+   /* display: none; /* Both forms will be hidden initially */
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container form {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.signup-container h2 {
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Align labels to the left */
+.signup-container label {
+    display: block; /* Ensures label takes up full width */
+    text-align: center; /* Aligns the label text to the left */
+    margin-bottom: 5px; /* Adds space between the label and the input */
+    font-weight: bold; /* Optional: makes the label text bold */
+}
+
+.signup-container input[type="text"], 
+.signup-container input[type="tel"], 
+.signup-container input[type="email"], 
+.signup-container input[type="password"],
+.signup-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding does not exceed the element's width */
+}
+
+.signup-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+
+.signup-container input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.signin-link {
+    margin-top: 15px;
+}
+
+.signin-link a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+.signin-link a:hover {
+    text-decoration: underline;
+}

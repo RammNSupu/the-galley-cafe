@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* About Section */
+.about-section {
+    background: none; /* No background image here */
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.about-header {
+    background-image: url('assets/aboutus bg.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Ensure the background is applied only to this header section */
+}
+
+.about-header h1 {
+    font-size: 3em;
+    color: rgb(255, 255, 255); /* Bold Black Text */
+}
+
+.intro-text {
+    color: rgb(255, 255, 255); /* White color text */
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* Things to Know Us */
+.about-content {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 40px;
+    border-top: 5px solid black;
+}
+
+.about-content h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #999; /* Ash color */
+    margin-bottom: 40px;
+}
+
+/* Our Story Section */
+.our-story {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.image-placeholder {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.image-placeholder img {
+    width: 100%; /* Ensures the image fits within the container */
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+}
+
+.text-section {
+    width: 50%;
+    text-align: left;
+}
+
+.text-section h3 {
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold; /* Bold text for 'Our Story' */
+}
+
+.text-section p {
+    color: #333;
+}
+
+/* Vision and Mission Section */
+.vision-mission {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vision-box, .mission-box {
+    width: 45%;
+    padding: 20px;
+    border: 3px solid yellow; /* Yellow border */
+}
+
+.vision-box h4, .mission-box h4 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.vision-box p, .mission-box p {
+    color: black;
+}
